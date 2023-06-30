@@ -18,13 +18,24 @@ html {
 }
 
 .logo-subtitle {
+    font-family: 'Roboto';
     font-size: 14px;
     width: 280px;
+    margin-top: 7px;
+    margin-bottom: 0;
     vertical-align: bottom;
+    font-weight: 500;
 }
 
 .logotip-link{
     color: #000000;
+}
+
+.logotip-link:hover {
+    text-decoration: none;
+    color: #8B4513;
+    font-weight: 500;
+    transition: 0.4s;
 }
 
 .contact {
@@ -33,10 +44,17 @@ html {
 }
 
 .phone-item {
+    font-family: 'Roboto';
     color: #000000;
     font-size: 12px;
     text-decoration: none;
     font-weight: 400;
+}
+
+.phone-item:hover {
+    text-decoration: none;
+    color: #8B4513;
+    transition: 0.3s;
 }
 
 .phone {
@@ -46,6 +64,12 @@ html {
 .address {
     margin-right: 70px;
     margin-bottom: 0;
+}
+
+.address-item:hover {
+    text-decoration: none;
+    color: #8B4513;
+    transition: 0.3s;
 }
 
 address {
@@ -61,8 +85,8 @@ address {
 
 .navbar {
     display: flex;
-    margin-top: 15px;
-    align-content: flex-end;
+    margin: 15px 0 0 0;
+    padding: 0;
 }
 
 .work-item {
